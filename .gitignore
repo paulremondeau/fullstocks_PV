@@ -15,4 +15,6 @@ frontend/dist
 
 .git/
 backend/config.py
-frontend/src/config.ts
+frontend/config.ts
+
+.metals/
