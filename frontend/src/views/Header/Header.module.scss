@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    h3.title {
+        margin-left: 10px;
+        ;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+
+        transition-property: none;
+        pointer-events: stroke;
+
+        &:hover {
+            background-color: transparent;
+
+        }
+
+        img.logo {
+            height: 100%;
+            width: 100%;
+        }
+
+
+    }
+}

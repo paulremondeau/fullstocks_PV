@@ -1,0 +1,11 @@
+backend/.venv
+*.ipynb
+
+app_logs.log.*
+
+.vscode
+
+database/IGNORE
+database/PVDAQ/timeseries
+
+/node_modules

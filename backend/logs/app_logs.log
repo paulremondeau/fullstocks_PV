@@ -1,0 +1,26 @@
+{"time": 2023-10-15 13:57:11,446, "module": "app", "process": 60, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 13:57:11,452, "module": "app", "process": 84, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 13:57:11,472, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000"}
+{"time": 2023-10-15 13:57:11,473, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "[33mPress CTRL+C to quit[0m"}
+{"time": 2023-10-15 13:58:08,377, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:58:08] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:58:08,382, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:58:08] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:58:10,056, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:58:10] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:58:10,065, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:58:10] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:59:04,776, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:59:04] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:59:04,792, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:59:04] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:59:04,880, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:59:04] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 13:59:04,955, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 13:59:04] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:00:30,667, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:00:30] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:00:30,676, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:00:30] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:00:30,850, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:00:30] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:00:30,850, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:00:30] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:08:06,419, "module": "app", "process": 60, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 14:08:06,420, "module": "app", "process": 84, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 14:08:06,424, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000"}
+{"time": 2023-10-15 14:08:06,424, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "[33mPress CTRL+C to quit[0m"}
+{"time": 2023-10-15 14:08:12,181, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:08:12] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:08:12,216, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:08:12] "GET /system_metadata HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:08:13,058, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:08:13] "GET /send_graph HTTP/1.1" 200 -"}
+{"time": 2023-10-15 14:08:13,064, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 14:08:13] "GET /send_graph HTTP/1.1" 200 -"}
