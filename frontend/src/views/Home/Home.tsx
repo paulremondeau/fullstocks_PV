@@ -37,7 +37,7 @@ function Home() {
             })
 
         axios
-            .get(BACKEND_URL + "system_metadata")
+            .get(BACKEND_URL + "/system_metadata")
             .then((res) => {
 
                 const data: { [key: number]: string } = res.data
