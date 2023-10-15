@@ -1,10 +1,46 @@
-{"time": 2023-10-15 19:28:24,963, "module": "app", "process": 58, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
-{"time": 2023-10-15 19:28:24,965, "module": "app", "process": 76, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
-{"time": 2023-10-15 19:28:25,098, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
-{"time": 2023-10-15 19:29:32,941, "module": "app", "process": 58, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
-{"time": 2023-10-15 19:29:32,942, "module": "app", "process": 76, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
-{"time": 2023-10-15 19:29:32,959, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
-{"time": 2023-10-15 19:29:37,400, "module": "app", "process": 825, "name": "app", "level": "ERROR", "message": "Exception on /send_graph [GET]"}
+{"time": 2023-10-15 21:53:36,405, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 21:53:36,407, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 21:53:36,530, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 21:54:14,111, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 21:54:14,113, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 21:54:14,127, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 21:55:09,022, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 21:55:09,024, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 21:55:09,040, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 21:57:04,556, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 21:57:04,557, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 21:57:04,562, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000"}
+{"time": 2023-10-15 21:57:04,562, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "[33mPress CTRL+C to quit[0m"}
+{"time": 2023-10-15 21:57:06,835, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] code 400, message Bad request version ('3Ö\x10ÍÆ9u\x8dF\x1b#Îî\x88È4Äß7\x003&/Rå¤;¤\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')"}
+{"time": 2023-10-15 21:57:06,836, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03/;~É(£:½ùs<\x18¹Õ\x08« \x9a@l\x90\x1bXÉ3ó\x09#\x93¿\x97i \x89ÄB\x0b3Ö\x10ÍÆ9u\x8dF\x1b#Îî\x88È4Äß7\x003&/Rå¤;¤\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -"}
+{"time": 2023-10-15 21:57:06,837, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03,Kìö')"}
+{"time": 2023-10-15 21:57:06,838, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03,Kìö\x1c\x15)Jß\x14\x18[0m" 400 -"}
+{"time": 2023-10-15 21:57:06,843, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] code 400, message Bad request version ('ï\x9b\x8f¨ù\x89\x99¶¼`e¡yEV-k©fL(\x19!Pð<\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')"}
+{"time": 2023-10-15 21:57:06,844, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x034~kµZ\x87â¬ô\x19Q\x90\x10\x1d\x06¤\x05<ØÌ\x11×>>½æÜñ\x08/ L \x8e\x0cw,\x86\x0dï\x9b\x8f¨ù\x89\x99¶¼`e¡yEV-k©fL(\x19!Pð<\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -"}
+{"time": 2023-10-15 21:57:06,847, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] code 400, message Bad request version ('\x14>\x9bS\x1b\x97Õê\x05Ë\x94Ô\x9f6Ã`Ï\x8a¥u$¹\x9dÅ\x9bwÂÎ4\x10ìU\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')"}
+{"time": 2023-10-15 21:57:06,848, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:06] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03º*]¸È|>\x15\x1bÆÉ@Ë\x97\x8d\x9do»\x1bÐ¯\x95ä(ÖÜK\x0cfÜÜi \x14>\x9bS\x1b\x97Õê\x05Ë\x94Ô\x9f6Ã`Ï\x8a¥u$¹\x9dÅ\x9bwÂÎ4\x10ìU\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -"}
+{"time": 2023-10-15 21:57:24,549, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] code 400, message Bad request version ('\x7f@Î%$°=~\x8cãÙô¸\x9c\x94)ÈUés\x02Î,K\x18)\x02ðÊ\x9aKÁ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')"}
+{"time": 2023-10-15 21:57:24,549, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03%Á\x8eWÿ\x8c\x8dA\x0eWö\x1bÄäø\x95\x9f\x8d\x94\x8a\x8fÌ^\x1fÍ\x11ÙîÚÐ±v \x7f@Î%$°=~\x8cãÙô¸\x9c\x94)ÈUés\x02Î,K\x18)\x02ðÊ\x9aKÁ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -"}
+{"time": 2023-10-15 21:57:24,551, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] code 400, message Bad request version ('7ò\x99')"}
+{"time": 2023-10-15 21:57:24,551, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03£¦= !ÄÐps\x94þQ\x8d?\x87\x93¿\x00M\x1f+»§q\x07±hÁ½3ai ý£à\x80¡e5¥\x18¬ªû\x88ÇNá  í\x0c7ò\x99[0m" 400 -"}
+{"time": 2023-10-15 21:57:24,553, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] code 400, message Bad request version ('\x9cBSÖcæ¨Ù$²xE.æ;\x7fÐ\x04ô\x13Y\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')"}
+{"time": 2023-10-15 21:57:24,553, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x035â\x90¬µ\x89\\\x18º\x07ü\x80¦\x11\x83\x8d\x83Â1K\x8eÆÍé¸UDQ4ð\x1fF \x8fq\x01­bëG_\x19 \x1c\x9cBSÖcæ¨Ù$²xE.æ;\x7fÐ\x04ô\x13Y\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -"}
+{"time": 2023-10-15 21:57:24,556, "module": "_internal", "process": 96, "name": "werkzeug", "level": "ERROR", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] code 400, message Bad request version ('\x15v\x10\x90¬!\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')"}
+{"time": 2023-10-15 21:57:24,556, "module": "_internal", "process": 96, "name": "werkzeug", "level": "INFO", "message": "127.0.0.1 - - [15/Oct/2023 21:57:24] "[31m[1m\x16\x03\x01\x02\x8c\x01\x00\x02\x88\x03\x03)þ\x9fÜÊ\x00ÒÆEú\x9b\\ýº\x9e\x06Îì\x05à\x15\x9f\x9dk\x896\x0ca\x9a\x80\x1cu \x83\x81 üÆÆ\x98^£\x9d8\x94\x91Kéï½©®\x8e£BßJÓ\x09\x15v\x10\x90¬!\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -"}
+{"time": 2023-10-15 21:59:18,525, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 21:59:18,526, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 21:59:18,540, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 21:59:40,641, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 21:59:40,642, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 21:59:40,661, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 22:00:07,484, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 22:00:07,485, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 22:00:07,497, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 22:55:06,166, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 22:55:06,176, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 22:55:06,295, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
+{"time": 2023-10-15 22:55:16,105, "module": "app", "process": 825, "name": "app", "level": "ERROR", "message": "Exception on /send_graph [GET]"}
 Traceback (most recent call last):
   File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
     response = self.full_dispatch_request()
@@ -21,9 +57,9 @@ Traceback (most recent call last):
   File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/app.py", line 86, in send_graph
-    df_monthly = pd.read_csv(
-                 ^^^^^^^^^^^^
+  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/app.py", line 117, in send_graph
+    df_efficiency = pd.read_csv(
+                    ^^^^^^^^^^^^
   File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
     return _read(filepath_or_buffer, kwds)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,124 +75,7 @@ Traceback (most recent call last):
   File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/common.py", line 863, in get_handle
     handle = open(
              ^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '../database/PVDAQ/monthly_aggregation/system_10_aggregation.csv'
-{"time": 2023-10-15 19:29:37,401, "module": "app", "process": 825, "name": "app", "level": "ERROR", "message": "Exception on /system_metadata [GET]"}
-Traceback (most recent call last):
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask_cors/extension.py", line 176, in wrapped_function
-    return cors_after_request(app.make_response(f(*args, **kwargs)))
-                                                ^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/app.py", line 126, in send_metadata
-    df = pd.read_csv("../database/PVDAQ/metadata_deluxe.csv")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
-    return _read(filepath_or_buffer, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 611, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
-    self._engine = self._make_engine(f, self.engine)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
-    self.handles = get_handle(
-                   ^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/common.py", line 863, in get_handle
-    handle = open(
-             ^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '../database/PVDAQ/metadata_deluxe.csv'
-{"time": 2023-10-15 19:29:58,003, "module": "app", "process": 825, "name": "app", "level": "ERROR", "message": "Exception on /send_graph [GET]"}
-Traceback (most recent call last):
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask_cors/extension.py", line 176, in wrapped_function
-    return cors_after_request(app.make_response(f(*args, **kwargs)))
-                                                ^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/app.py", line 86, in send_graph
-    df_monthly = pd.read_csv(
-                 ^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
-    return _read(filepath_or_buffer, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 611, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
-    self._engine = self._make_engine(f, self.engine)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
-    self.handles = get_handle(
-                   ^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/common.py", line 863, in get_handle
-    handle = open(
-             ^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '../database/PVDAQ/monthly_aggregation/system_10_aggregation.csv'
-{"time": 2023-10-15 19:29:58,008, "module": "app", "process": 825, "name": "app", "level": "ERROR", "message": "Exception on /system_metadata [GET]"}
-Traceback (most recent call last):
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 1455, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 869, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask_cors/extension.py", line 176, in wrapped_function
-    return cors_after_request(app.make_response(f(*args, **kwargs)))
-                                                ^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 867, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/flask/app.py", line 852, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/app.py", line 126, in send_metadata
-    df = pd.read_csv("../database/PVDAQ/metadata_deluxe.csv")
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
-    return _read(filepath_or_buffer, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 611, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
-    self._engine = self._make_engine(f, self.engine)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
-    self.handles = get_handle(
-                   ^^^^^^^^^^^
-  File "/mnt/B4C20210C201D78E/Travail/Projets perso/fullstocks_PV/backend/.venv/lib/python3.11/site-packages/pandas/io/common.py", line 863, in get_handle
-    handle = open(
-             ^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '../database/PVDAQ/metadata_deluxe.csv'
-{"time": 2023-10-15 19:31:49,168, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
-{"time": 2023-10-15 19:31:49,169, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
-{"time": 2023-10-15 19:31:49,187, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
-{"time": 2023-10-15 19:46:18,065, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
-{"time": 2023-10-15 19:46:18,066, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
-{"time": 2023-10-15 19:46:18,081, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
-{"time": 2023-10-15 19:46:22,371, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
-{"time": 2023-10-15 19:46:22,372, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
-{"time": 2023-10-15 19:46:22,387, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
-{"time": 2023-10-15 19:47:32,245, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
-{"time": 2023-10-15 19:47:32,246, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
-{"time": 2023-10-15 19:47:32,260, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://172.17.0.1:5000"}
+FileNotFoundError: [Errno 2] No such file or directory: './database/PVDAQ/monthly_aggregation/efficiency_system_10.csv'
+{"time": 2023-10-15 22:55:36,128, "module": "app", "process": 59, "name": "app.py", "level": "INFO", "message": "Logger initialized."}
+{"time": 2023-10-15 22:55:36,136, "module": "app", "process": 77, "name": "app.py", "level": "INFO", "message": "Backend server initialized."}
+{"time": 2023-10-15 22:55:36,151, "module": "wasyncore", "process": 486, "name": "waitress", "level": "INFO", "message": "Serving on http://0.0.0.0:5000"}
