@@ -6,6 +6,6 @@ app_logs.log.*
 .vscode
 
 database/IGNORE
-database/PVDAQ/timeseries
+*/database/PVDAQ/timeseries
 
 /node_modules
