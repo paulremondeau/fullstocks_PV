@@ -1,4 +1,5 @@
 backend/.venv
+*/__pycache__
 *.ipynb
 
 app_logs.log.*
@@ -6,6 +7,10 @@ app_logs.log.*
 .vscode
 
 database/IGNORE
-*/database/PVDAQ/timeseries
+backend/database/PVDAQ/timeseries
 
 /node_modules
+
+frontend/dist
+
+.git/

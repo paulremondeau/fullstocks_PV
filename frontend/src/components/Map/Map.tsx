@@ -1,5 +1,3 @@
-import styles from './Map.module.scss'
-
 import 'leaflet/dist/leaflet.css'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
@@ -7,11 +5,24 @@ import { AvailableDataContext, SelectSystemContext } from '../../utils/context/i
 
 import { useContext } from 'react'
 
+// Leaflet Markers
+import L from 'leaflet';
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41]
+});
+L.Marker.prototype.options.icon = DefaultIcon;
+
 
 function Map() {
 
     const availableData = useContext(AvailableDataContext)
-    const { selectedSystem, setSelectedSystem } = useContext(SelectSystemContext)
+    const { setSelectedSystem } = useContext(SelectSystemContext)
 
     return <>
         <MapContainer style={{ height: "100%", width: "100%" }} center={{ lat: 39.011902, lng: -98.4842465 }} zoom={5} scrollWheelZoom={true}>

@@ -1,7 +1,6 @@
 import styles from './System.module.scss'
 
 import { Card } from '../Card/Card.tsx'
-import { Chart } from '../Chart/Chart.tsx'
 
 import { useContext } from 'react'
 

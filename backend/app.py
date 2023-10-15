@@ -16,6 +16,7 @@ __status__ = "Production"
 __logger__ = "app.py"
 
 LOG_CONFIG_FILE = "config/log_config.ini"
+DATABASE_PATH = "./database"
 
 
 # =================================================================================================
@@ -31,14 +32,12 @@ import logging
 import logging.config
 
 import pandas as pd
-import pytz
 
 import plotly.express as px
 import plotly
 
-EUROPE_TIMEZONE = pytz.timezone("Europe/Paris")
 
-from flask import Flask, request
+from flask import Flask
 
 # from flask_sqlalchemy import SQLAlchemy
 # from flask_marshmallow import Marshmallow
@@ -46,7 +45,7 @@ from flask_cors import CORS
 from flask_swagger import swagger
 from flask_swagger_ui import get_swaggerui_blueprint
 
-from config import API_KEY, API_PLAN, FRONTEND_URL
+from config import FRONTEND_URL
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -66,12 +65,6 @@ logger.info("Logger initialized.")
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + os.path.join(
-#     basedir, "db.sqlite"
-# )
-#
-# app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-# app.app_context().push()
 
 # enable CORS
 cors = CORS(
@@ -83,114 +76,6 @@ cors = CORS(
 )
 logger.info("Backend server initialized.")
 
-# =================================================================================================
-#     Database
-# =================================================================================================
-
-# db = SQLAlchemy(app)
-# ma = Marshmallow(app)
-
-# SYMBOL_LENGTH = 20
-# EXCHANGE_LENGTH = 30
-# COUNTRY_LENGTH = 30
-
-
-# class StockTimeSeries(db.Model):
-#     symbol = db.Column(db.String(SYMBOL_LENGTH), primary_key=True)
-#     timeDelta = db.Column(db.String(6), primary_key=True)
-#     exchange = db.Column(db.String(EXCHANGE_LENGTH))
-#     timezone = db.Column(db.String(100))
-#     timeseries = db.Column(db.PickleType(comparator=pd.Series.equals))
-#     marketChecked = db.Column(db.Boolean)
-
-#     def __init__(
-#         self, symbol, timeDelta, exchange, timezone, timeseries, marketChecked
-#     ):
-#         self.symbol = symbol
-#         self.timeDelta = timeDelta
-#         self.exchange = exchange
-#         self.timezone = timezone
-#         self.timeseries = timeseries
-#         self.marketChecked = marketChecked
-
-
-# class StockTimeSeriesSchema(ma.Schema):
-#     class Meta:
-#         fields = (
-#             "symbol",
-#             "timeDelta",
-#             "exchange",
-#             "timezone",
-#             "timeseries",
-#             "marketChecked",
-#         )
-
-
-# stock_timeseries_schema = StockTimeSeriesSchema()
-# stocks_timeseries_schema = StockTimeSeriesSchema(many=True)
-
-
-# class MarketState(db.Model):
-#     exchange = db.Column(db.String(EXCHANGE_LENGTH), primary_key=True)
-#     country = db.Column(db.String(COUNTRY_LENGTH))
-#     isMarketOpen = db.Column(db.Boolean)
-#     timeToOpen = db.Column(db.PickleType())
-#     timeToClose = db.Column(db.PickleType())
-#     dateCheck = db.Column(db.Float)
-
-#     def __init__(
-#         self, exchange, country, isMarketOpen, timeToOpen, timeToClose, dateCheck
-#     ):
-#         self.exchange = exchange
-#         self.country = country
-#         self.isMarketOpen = isMarketOpen
-#         self.timeToOpen = timeToOpen
-#         self.timeToClose = timeToClose
-#         self.dateCheck = dateCheck
-
-
-# class MarketStateSchema(ma.Schema):
-#     class Meta:
-#         fields = (
-#             "exchange",
-#             "country",
-#             "isMarketOpen",
-#             "timeToOpen",
-#             "timeToClose",
-#             "dateCheck",
-#         )
-
-
-# market_schema = MarketStateSchema()
-# markets_schema = MarketStateSchema(many=True)
-
-
-# class AvailableSymbols(db.Model):
-#     exchange = db.Column(db.String(EXCHANGE_LENGTH), primary_key=True)
-#     symbolsList = db.Column(db.PickleType())
-#     dateCheck = db.Column(db.Float)
-
-#     def __init__(self, exchange, symbolsList, dateCheck):
-#         self.exchange = exchange
-#         self.symbolsList = symbolsList
-#         self.dateCheck = dateCheck
-
-
-# class AvailableSymbolsSchema(ma.Schema):
-#     class Meta:
-#         fields = (
-#             "exchange",
-#             "symbolsList",
-#             "dateCheck",
-#         )
-
-
-# available_symbols_schema = AvailableSymbolsSchema()
-# available_symbols_many_schema = AvailableSymbolsSchema(many=True)
-
-# db.create_all()
-
-# logger.info("Database initialized.")
 
 # =================================================================================================
 #     Routes
@@ -200,7 +85,7 @@ logger.info("Backend server initialized.")
 @app.route("/send_graph", methods=["GET"])
 def send_graph():
     df_monthly = pd.read_csv(
-        "../database/PVDAQ/monthly_aggregation/system_10_aggregation.csv"
+        f"{DATABASE_PATH}/PVDAQ/monthly_aggregation/system_10_aggregation.csv"
     )
     fig_monthly = px.bar(
         df_monthly, x="month", y="energy", title="Monthly production (kWh)"
@@ -208,7 +93,7 @@ def send_graph():
     graphJSON_monthly = plotly.io.to_json(fig_monthly)
 
     df_daily = pd.read_csv(
-        "../database/PVDAQ/daily_evolution_power/system_10_daily.csv"
+        f"{DATABASE_PATH}/PVDAQ/daily_evolution_power/system_10_daily.csv"
     )
     fig_daily = px.line(
         df_daily,
@@ -239,7 +124,7 @@ def send_graph():
 
 @app.route("/system_metadata", methods=["GET"])
 def send_metadata():
-    df = pd.read_csv("../database/PVDAQ/metadata_deluxe.csv")
+    df = pd.read_csv(f"{DATABASE_PATH}/PVDAQ/metadata_deluxe.csv")
     res = {}
     for system in df.iloc:
         res[int(system["system_id"])] = system[1:].to_json()

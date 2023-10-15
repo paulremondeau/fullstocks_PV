@@ -1,7 +1,5 @@
 import styles from './Sidebar.module.scss'
 
-import { Link } from 'react-router-dom'
-
 
 function Sidebar() {
     return (<>
