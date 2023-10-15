@@ -14,3 +14,7 @@ backend/database/PVDAQ/timeseries
 frontend/dist
 
 .git/
+backend/config.py
+frontend/config.ts
+
+.metals/
