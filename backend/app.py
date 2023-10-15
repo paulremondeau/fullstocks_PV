@@ -114,10 +114,23 @@ def send_graph():
             scat.visible = "legendonly"
     graphJSON_daily = plotly.io.to_json(fig_daily)
 
+    df_efficiency = pd.read_csv(
+        f"{DATABASE_PATH}/PVDAQ/efficiency_data/efficiency_system_10.csv"
+    )
+    fig_efficiency = px.scatter(
+        df_efficiency,
+        x="Irradiance (W/m²)",
+        y="Module temperature (°C)",
+        color="Efficiency",
+        title="Module efficiency evolution in function of irradiance and temperature",
+    )
+    graphJSON_efficiency = plotly.io.to_json(fig_efficiency)
+
     res = {
         "info": [],
         "monthly_chart": graphJSON_monthly,
         "daily_chart": graphJSON_daily,
+        "efficiency_chart": graphJSON_efficiency,
     }
     return res
 

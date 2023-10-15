@@ -8,6 +8,7 @@ export interface SystemInterface {
     "info": any[],
     "monthly_chart": { "data": any[], "layout": {} },
     "daily_chart": { "data": any[], "layout": {} },
+    "efficiency_chart": { "data": any[], "layout": {} },
 }
 
 export const AvailableDataContext = createContext<AvailableData>({});
@@ -15,6 +16,7 @@ export const SystemContext = createContext<SystemInterface>({
     "info": [],
     "monthly_chart": { "data": [], "layout": {} },
     "daily_chart": { "data": [], "layout": {} },
+    "efficiency_chart": { "data": [], "layout": {} },
 })
 
 interface SelectedSystemInterface {

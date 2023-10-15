@@ -19,6 +19,7 @@ function Home() {
         "info": [],
         "monthly_chart": { "data": [], "layout": {} },
         "daily_chart": { "data": [], "layout": {} },
+        "efficiency_chart": { "data": [], "layout": {} },
     })
 
     useEffect(() => {
@@ -29,7 +30,8 @@ function Home() {
                     return ({
                         "info": res.data.info,
                         "monthly_chart": JSON.parse(res.data.monthly_chart),
-                        "daily_chart": JSON.parse(res.data.daily_chart)
+                        "daily_chart": JSON.parse(res.data.daily_chart),
+                        "efficiency_chart": JSON.parse(res.data.efficiency_chart)
                     })
                 })
             }).catch((err) => {

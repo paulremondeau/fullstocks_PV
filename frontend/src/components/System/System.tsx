@@ -26,6 +26,10 @@ function System() {
                         layout={dataChart.daily_chart.layout}
                     />
                 </div>
+                <Plot
+                    data={dataChart.efficiency_chart.data}
+                    layout={dataChart.efficiency_chart.layout}
+                />
             </div>
         </>
     )
